@@ -1,4 +1,5 @@
 execution:
+become: true
 - executor: selenium
   scenario: open_page
 
